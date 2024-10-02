@@ -1,0 +1,138 @@
+{
+    "features": [
+        {
+            "title": "Get Best Prices",
+            "description": "Pay through our application and save thousands and get amazing rewards",
+            "image": "GetBestPrices.png"
+        },
+        {
+            "title": "Covid Safe",
+            "description": "We have all the curated hotels that have all the precaution for a covid safe environment",
+            "image": "CovidSafe.png"
+        },
+        {
+            "title": "Flexible Payment",
+            "description": "Enjoy the flexible payment through our app and get rewards on every payment",
+            "image": "FlexiblePayment.png"
+        },
+        {
+            "title": "Find The Best Near You",
+            "description": "We have the best hotels and places to visit near you in a single click",
+            "image": "FindBestNearYou.png"
+        }
+    ],
+    "recommended_destinations": [
+        {
+            "title": "Singapore",
+            "description": "Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast",
+            "price": "₹ 38,800",
+            "distance": "1000 Kms",
+            "trip_duration": "Approx 2 night trip",
+            "icons": [
+                "icon1.png",
+                "icon2.png",
+                "icon3.png"
+            ],
+            "category": "The Weekend Break",
+            "image": "Singapore.png"
+        },
+        {
+            "title": "Thailand",
+            "description": "Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces",
+            "price": "₹ 38,800",
+            "distance": "1000 Kms",
+            "trip_duration": "Approx 2 night trip",
+            "icons": [
+                "icon1.png",
+                "icon2.png",
+                "icon3.png"
+            ],
+            "category": "The Package Holiday",
+            "image": "Thailand.png"
+        },
+        {
+            "title": "Paris",
+            "description": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and",
+            "price": "₹ 38,800",
+            "distance": "1000 Kms",
+            "trip_duration": "Approx 2 night trip",
+            "icons": [
+                "icon1.png",
+                "icon2.png",
+                "icon3.png"
+            ],
+            "category": "The Group Tour",
+            "image": "Paris.png"
+        },
+        {
+            "title": "New Zealand",
+            "description": "New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main",
+            "price": "₹ 38,800",
+            "distance": "1000 Kms",
+            "trip_duration": "Approx 1 night trip",
+            "icons": [
+                "icon1.png",
+                "icon2.png",
+                "icon3.png"
+            ],
+            "category": "Long Term Slow Travel",
+            "image": "NewZealand.png"
+        },
+        {
+            "title": "Bora Bora",
+            "description": "Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand",
+            "price": "₹ 38,800",
+            "distance": "1000 Kms",
+            "trip_duration": "Approx 2 night 2 day trip",
+            "icons": [
+                "icon1.png",
+                "icon2.png",
+                "icon3.png"
+            ],
+            "category": "Long Term Slow Travel",
+            "image": "BoraBora.png"
+        },
+        {
+            "title": "London",
+            "description": "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching",
+            "price": "₹ 38,800",
+            "distance": "1000 Kms",
+            "trip_duration": "Approx 3 night 2 day trip",
+            "icons": [
+                "icon1.png",
+                "icon2.png",
+                "icon3.png"
+            ],
+            "category": "Long Term Slow Travel",
+            "image": "London.png"
+        }
+    ],
+    "blogs": [
+        {
+            "title": "The Ultimate Guide to Climbing Mount Kilimanjaro",
+            "image": "blogimage1.png"
+        },
+        {
+            "title": "12 Things I’d Tell Any New Traveler",
+            "image": "blogimage2.png"
+        },
+        {
+            "title": "The Ultimate Packing List for Female Travelers",
+            "image": "blogimage3.png"
+        }
+    ],
+    "happy_customers": [
+        {
+            "name": "Shalini Singh",
+            "role": "Project Manager flyhigh",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "image": "path/to/customer1_image"
+        },
+        {
+            "name": "Shalini Singh",
+            "role": "Project Manager flyhigh",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "image": "path/to/customer2_image"
+        }
+    ]
+}

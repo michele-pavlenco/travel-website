@@ -1,0 +1,218 @@
+@import '~bootstrap/scss/bootstrap';
+$primary-color: #3498db;
+
+// .App {
+//     background-color: $primary-color;
+//     color: white;
+//     text-align: center;
+// }
+.text-right {
+    text-align: right;
+}
+
+#hero {
+    .container {
+        // background-image: url('../Images/Hero.png');;
+        background-image: url('./Images/Hero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        width: 100%;
+        border-radius: 10px;
+
+        .text-dark {
+            width: 80%;
+            margin: 0 auto;
+
+
+
+            input {
+                height: 50px;
+                border: none !important;
+            }
+
+            p {
+                font-weight: bold;
+                text-align: left;
+            }
+        }
+
+        button {
+            height: 60px;
+            width: 300px;
+        }
+
+    }
+}
+
+#guarantees {
+
+    .cards-container {
+
+        .card {
+            width: calc((100% / 4) - 50px);
+            max-width: 369px;
+            text-align: left;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: default;
+
+            img {
+                height: 80px;
+                width: 80px;
+            }
+
+            &:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            }
+
+        }
+
+    }
+}
+
+#recommended-destinations {
+
+    .nav-tabs {
+        .nav-link.active {
+            border: none;
+            border-bottom: 2px solid black;
+        }
+
+        .nav-link {
+            border: 3px solid rgba(0, 0, 0, 0);
+
+            &:hover {
+                border: none;
+                border-bottom: 3px solid black;
+            }
+        }
+
+    }
+
+    .row {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            background-image: url('./Images/recommended-destinations/datails.png');
+            background-size: contain;
+            width: 130px;
+            height: 120px;
+            top: -50px;
+            left: -50px;
+            overflow: visible !important;
+        }
+
+        .mycard {
+            min-width: 300px;
+            margin: 0 auto;
+            cursor: pointer;
+
+            .card-body {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
+    }
+}
+
+#blogs {
+    h2 {
+        font-weight: bo;
+    }
+
+    .cards-container {
+        color: white;
+
+        .blog-content {
+            pointer-events: none;
+
+            h3 {
+                font-weight: bold;
+            }
+        }
+
+        .mcard {
+            overflow: hidden;
+            border: 10px solid white;
+            border-radius: 20px;
+
+            .blog-image {
+                height: 100%;
+                width: 100%;
+                transition: transform 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .second-third-blogs {
+            img {
+                height: 100%;
+                width: 100%;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    #guarantees {
+
+        .cards-container {
+            flex-wrap: wrap;
+
+
+            .card {
+                width: calc(50% - 50px);
+                margin: 20px auto;
+
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #hero {
+        .container {
+            .position-absolute {
+                width: 80%;
+
+                .imput-container {
+                    display: flex;
+                    margin: 0 auto;
+                    justify-content: space-between !important;
+
+                    input {
+                        width: 200px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #guarantees {
+        .card {
+            width: 100% !important;
+
+        }
+    }
+}
