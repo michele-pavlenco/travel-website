@@ -1,8 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
-import hero from '../Images/Hero.png';
+
 
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
