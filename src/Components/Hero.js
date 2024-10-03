@@ -10,13 +10,12 @@ const Hero = () => {
     return (
         <div id='hero'>
             <Container className="position-relative  d-flex justify-content-center align-items-center">
-                {/* <Image src={hero} fluid className='backgroung-image' /> */}
                 <div className="position-absolute m-4">
-                    <div className="w-50 m-auto text-white text-center">
+                    <div className="m-auto text-white text-center">
                         <h1>Travel to explore</h1>
-                        <p>Discover the world through our unique travel experience Discover the world through our unique travel experience Discover the world through our unique travel experience</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris</p>
                     </div>
-                    <div className="imput-container justify-content-center align-items-center bg-white rounded px-2">
+                    <div className="imput-container p-2 justify-content-center align-items-center bg-white rounded px-2">
                         <div className='text-dark text-left'>
                             <p className='mb-0'>Where You Wantto go</p>
                             <FloatingLabel label="Search youre location">
@@ -35,8 +34,9 @@ const Hero = () => {
                                 <Form.Control type="date" placeholder="Add date" />
                             </FloatingLabel>
                         </div>
-
-                        <Button variant="primary">Explore Now</Button>
+                        <div className='hero-button'>
+                            <Button variant="primary">Explore Now</Button>
+                        </div>
                     </div>
                 </div>
 

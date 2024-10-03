@@ -1,18 +1,49 @@
 @import '~bootstrap/scss/bootstrap';
-$primary-color: #3498db;
 
-// .App {
-//     background-color: $primary-color;
-//     color: white;
-//     text-align: center;
-// }
+.App {
+    margin-top: 55px;
+}
+
+#navb {
+    .contact {
+        background-color: #4469E3 !important;
+
+
+        &:hover {
+            background-color: #4469e3c5 !important;
+        }
+
+    }
+}
+#hero {
+    button {
+        background-color: #4469E3 !important;
+
+
+        &:hover {
+            background-color: #4469e3c5 !important;
+        }
+
+    }
+}
+
 .text-right {
     text-align: right;
 }
 
+#navb {
+
+    .position-fixed {
+        z-index: 10;
+        top: 0px;
+
+
+    }
+}
+
+
 #hero {
     .container {
-        // background-image: url('../Images/Hero.png');;
         background-image: url('./Images/Hero.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -21,11 +52,15 @@ $primary-color: #3498db;
         width: 100%;
         border-radius: 10px;
 
+        .hero-button {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
         .text-dark {
             width: 80%;
             margin: 0 auto;
-
-
 
             input {
                 height: 50px;
@@ -40,7 +75,7 @@ $primary-color: #3498db;
 
         button {
             height: 60px;
-            width: 300px;
+            min-width: 150px;
         }
 
     }
@@ -102,6 +137,7 @@ $primary-color: #3498db;
             content: "";
             background-image: url('./Images/recommended-destinations/datails.png');
             background-size: contain;
+            background-repeat: no-repeat;
             width: 130px;
             height: 120px;
             top: -50px;
@@ -124,11 +160,12 @@ $primary-color: #3498db;
 
 #blogs {
     h2 {
-        font-weight: bo;
+        font-weight: bold;
     }
 
     .cards-container {
         color: white;
+        flex-wrap: wrap;
 
         .blog-content {
             pointer-events: none;
@@ -164,17 +201,91 @@ $primary-color: #3498db;
     }
 }
 
+#reviews {
+    margin: 50px auto;
 
+    h2 {
+        font-weight: bold;
+    }
 
+    .swiper-wrapper {
+        margin: 50px 5px;
 
+        .swiper-slide {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
 
+            .slide {
+                padding-left: 60px !important;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    background-image: url('./Images/review-details.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 40px;
+                    height: 40px;
+                    top: 25px;
+                    left: 5px;
+                    overflow: visible !important;
+                }
+            }
+        }
+    }
+
+}
+
+#footer {
+    margin: 40px 0px;
+
+    .footer-content {
+        background-color: #E2E8F8;
+        border-radius: 10px;
+        min-height: 80px;
+        padding: 10px;
+
+        a,
+        p {
+            text-decoration: none;
+            color: black;
+            margin: 0px 5px;
+        }
+
+        .footer-brand {
+            p {
+                font-weight: 500;
+                cursor: default;
+            }
+        }
+
+        .footer-links {
+            a {
+                &:hover {
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .footer-social {
+            svg {
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                margin: 5px;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}
 
 @media screen and (max-width: 1200px) {
     #guarantees {
 
         .cards-container {
             flex-wrap: wrap;
-
 
             .card {
                 width: calc(50% - 50px);
@@ -194,6 +305,15 @@ $primary-color: #3498db;
             .position-absolute {
                 width: 80%;
 
+                .m-auto.text-white.text-center {
+                    max-width: 50%;
+                }
+
+                .hero-button {
+                    width: fit-content;
+                    margin-top: 0px;
+                }
+
                 .imput-container {
                     display: flex;
                     margin: 0 auto;
@@ -204,6 +324,13 @@ $primary-color: #3498db;
                     }
                 }
             }
+        }
+    }
+
+    #blogs {
+
+        .cards-container {
+            flex-wrap: nowrap;
         }
     }
 }

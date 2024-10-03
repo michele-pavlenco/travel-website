@@ -25,9 +25,8 @@ const RecommendedDestinations = () => {
             <Container>
                 <h2 className="text-center mb-4">Recommended Destinations</h2>
 
-                {/* Bootstrap Tabs per filtrare le destinazioni */}
                 <Tabs
-                    id="controlled-tab-example"
+                    id="controlled-tab"
                     activeKey={activeCategory}
                     onSelect={(k) => setActiveCategory(k)}
                     className="mb-4 d-flex justify-content-center align-items-center border-0">
