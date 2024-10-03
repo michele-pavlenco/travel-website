@@ -333,6 +333,12 @@
             flex-wrap: nowrap;
         }
     }
+    #footer{
+
+        .footer-content{
+            flex-direction: row !important;
+        }
+    }
 }
 
 @media screen and (max-width: 576px) {

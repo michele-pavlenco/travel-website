@@ -20,12 +20,12 @@ const Navb = () => {
 
           {/* Collapsible content */}
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#">About</Nav.Link>
-              <Nav.Link href="#">Places</Nav.Link>
+            <Nav className="mx-auto">
+              <Nav.Link href="#hero">Home</Nav.Link>
+              <Nav.Link href="#guarantees">About</Nav.Link>
+              <Nav.Link href="#recommended-destinations">Places</Nav.Link>
               <Nav.Link href="#">Careers</Nav.Link>
-              <Nav.Link href="#">Blog</Nav.Link>
+              <Nav.Link href="#blogs">Blog</Nav.Link>
             </Nav>
             <Button className='contact' type="submit">Contact</Button>
           </Navbar.Collapse>

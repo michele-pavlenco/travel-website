@@ -14,7 +14,7 @@ const Footer = () => {
                         <p >Copyright © 2020 Travelo. All rights reserved</p>
                     </div>
                     <div className="footer-links">
-                        <a href="#home">Home</a>
+                        <a href="#hero">Home</a>
                         <a href="#guarantees">About</a>
                         <a href="#recommended-destinations">Places</a>
                         <a href="#">Careers</a>
